@@ -1,0 +1,13 @@
+
+# curl -X POST -d '{"id":10,"title":"mouse","cost":19}' -H "Content-Type:application/json" http://localhost:8189/my-mvc/products/my_product
+POST http://localhost:8189/my-mvc/products/my_product
+Content-Type: application/json
+
+{
+  "id": 10,
+  "title": "mouse",
+  "cost": 19
+}
+
+###
+
